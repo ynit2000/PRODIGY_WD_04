@@ -1,3 +1,6 @@
+
+
+
 body {
     /* align-items: center; */
     font-family: 'Arial', sans-serif;
@@ -14,9 +17,16 @@ header {
     padding: 1em;
     position: relative;
 }
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
+}
 
 section {
-    align-items: center ;
+    align-items: center;
     padding: 2em;
     position: relative;
 }
@@ -50,7 +60,7 @@ footer {
 }
 
 .project a {
-    
+
 
     display: inline-block;
     margin-right: 1em;
@@ -58,6 +68,7 @@ footer {
     color: #333;
     position: relative;
 }
+
 #contact {
     background-color: #fff;
     padding: 2em;
@@ -65,7 +76,8 @@ footer {
     position: relative;
 }
 
-.contact-info, .contact-form {
+.contact-info,
+.contact-form {
     margin-bottom: 2em;
     position: relative;
 }
@@ -81,7 +93,8 @@ label {
     position: relative;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.5em;
     position: relative;
@@ -95,30 +108,54 @@ button {
     cursor: pointer;
     position: relative;
 }
+
 #showContactFormBtn {
     margin-bottom: 50px;
     position: relative;
 }
 
-#about-me, #ai-enthusiast {
+#about-me,
+#ai-enthusiast {
     background-color: #f8f8f8;
     padding: 2em;
     position: relative;
 }
 
-#about-me h2, #ai-enthusiast h2 {
+#about-me h2,
+#ai-enthusiast h2 {
     color: #333;
     position: relative;
 
 }
 
-#about-me p, #ai-enthusiast p {
+#about-me p,
+#ai-enthusiast p {
     line-height: 1.6;
     position: relative;
 
 }
 
-body{
-    align-items: center;
+#icon {
+    padding: 50px;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
+.padding-text a {
+    margin-right: 10px;
+    color: blanchedalmond;
+    /* Adjust the value as needed */
+}
+
+.padding-text p {
+    margin-right: 10px;
+    /* Adjust the value as needed */
+}
+
+
+
+body {
+    align-items: center;
+}
