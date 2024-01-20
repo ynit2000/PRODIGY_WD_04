@@ -1,0 +1,124 @@
+body {
+    /* align-items: center; */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+section {
+    align-items: center ;
+    padding: 2em;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#projects {
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.project {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.project h3 {
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.project a {
+    
+
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+#contact {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contact-info, .contact-form {
+    margin-bottom: 2em;
+    position: relative;
+}
+
+form {
+    display: grid;
+    grid-gap: 1em;
+    position: relative;
+}
+
+label {
+    display: block;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    position: relative;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+#showContactFormBtn {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#about-me, #ai-enthusiast {
+    background-color: #f8f8f8;
+    padding: 2em;
+    position: relative;
+}
+
+#about-me h2, #ai-enthusiast h2 {
+    color: #333;
+    position: relative;
+
+}
+
+#about-me p, #ai-enthusiast p {
+    line-height: 1.6;
+    position: relative;
+
+}
+
+body{
+    align-items: center;
+}
+
